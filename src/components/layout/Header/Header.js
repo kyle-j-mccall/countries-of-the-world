@@ -3,6 +3,6 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <header>Header</header>
+    <header>Countries Of The World</header>
   );
 }
