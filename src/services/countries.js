@@ -1,5 +1,7 @@
-import { checkError, client } from '../../services/client';
+import { checkError, client } from './client';
 
 export async function fetchCountries() {
-  const resp = await client.from
+  const resp = await client.from('countries').select('*');
+
+  return checkError(resp);
 }

@@ -1,4 +1,12 @@
 main {
+  display: flex;
   background-color: rgb(186, 233, 233);
   height: 90vh;
+  flex-wrap: wrap;
+  padding: 5vh;
 }
+
+.country-card {
+  margin: 5px;
+}
+
