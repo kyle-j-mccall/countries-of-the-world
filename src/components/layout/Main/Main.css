@@ -1,0 +1,30 @@
+
+main {
+  background-color: rgb(186, 233, 233);
+}
+
+.countries-container {
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(186, 233, 233);
+  height: 90vh;
+  flex-wrap: wrap;
+  padding: 5vh;
+  overflow: scroll;
+}
+
+.country-card {
+  margin: 5px;
+  text-align: center;
+}
+
+.country-card img {
+  height: 20px;
+}
+
+.filter {
+  margin-top: 20px;
+}
+
