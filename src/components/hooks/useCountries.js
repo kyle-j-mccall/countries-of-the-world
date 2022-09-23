@@ -25,6 +25,6 @@ export function useCountries() {
     } fetchData();
   }, []);
   
-  return { countries };
+  return { countries, error };
 
 }
